@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.938" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\SeleniumRepoGB\untitled\target\test-classes;C:\SeleniumRepoGB\untitled\target\classes;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0\selenium-java-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0\selenium-api-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0\selenium-chrome-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\BogusławZioło\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\BogusławZioło\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\BogusławZioło\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\BogusławZioło\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\BogusławZioło\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0\selenium-chromium-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0\selenium-json-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0\selenium-devtools-v85-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0\selenium-devtools-v93-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.0.0\selenium-devtools-v94-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.0.0\selenium-devtools-v95-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0\selenium-edge-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0\selenium-firefox-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0\selenium-firefox-xpi-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0\selenium-ie-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0\selenium-opera-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0\selenium-remote-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-buffer\4.1.68.Final\netty-buffer-4.1.68.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-common\4.1.68.Final\netty-common-4.1.68.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport\4.1.68.Final\netty-transport-4.1.68.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-resolver\4.1.68.Final\netty-resolver-4.1.68.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-api\1.6.0\opentelemetry-api-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-context\1.6.0\opentelemetry-context-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.6.0\opentelemetry-exporter-logging-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.6.0-alpha\opentelemetry-sdk-metrics-1.6.0-alpha.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.6.0\opentelemetry-sdk-common-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.6.0\opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.6.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.6.0\opentelemetry-sdk-trace-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.6.0-alpha\opentelemetry-api-metrics-1.6.0-alpha.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.6.0\opentelemetry-sdk-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.6.0-alpha\opentelemetry-semconv-1.6.0-alpha.jar;C:\Users\BogusławZioło\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\BogusławZioło\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\BogusławZioło\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\BogusławZioło\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\BogusławZioło\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\BogusławZioło\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\BogusławZioło\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\BogusławZioło\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\BogusławZioło\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0\selenium-http-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0\selenium-safari-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0\selenium-support-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\BogusławZioło\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-testng\7.0.0\cucumber-testng-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\BogusławZioło\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\BogusławZioło\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-picocontainer\7.1.0\cucumber-picocontainer-7.1.0.jar;C:\Users\BogusławZioło\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="dataproviderthreadcount5" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\BogusławZioło\AppData\Local\Temp\surefire1287512853297946\surefirebooter4308922121397799227.jar C:\Users\BogusławZioło\AppData\Local\Temp\surefire1287512853297946 2022-11-09T10-54-47_757-jvmRun1 surefire15785817624795933695tmp surefire_014380315660133523202tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\SeleniumRepoGB\untitled\target\test-classes;C:\SeleniumRepoGB\untitled\target\classes;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0\selenium-java-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0\selenium-api-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0\selenium-chrome-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\BogusławZioło\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\BogusławZioło\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\BogusławZioło\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\BogusławZioło\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\BogusławZioło\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\BogusławZioło\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0\selenium-chromium-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0\selenium-json-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0\selenium-devtools-v85-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0\selenium-devtools-v93-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.0.0\selenium-devtools-v94-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.0.0\selenium-devtools-v95-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0\selenium-edge-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0\selenium-firefox-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0\selenium-firefox-xpi-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0\selenium-ie-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0\selenium-opera-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0\selenium-remote-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-buffer\4.1.68.Final\netty-buffer-4.1.68.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-common\4.1.68.Final\netty-common-4.1.68.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport\4.1.68.Final\netty-transport-4.1.68.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-resolver\4.1.68.Final\netty-resolver-4.1.68.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-api\1.6.0\opentelemetry-api-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-context\1.6.0\opentelemetry-context-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.6.0\opentelemetry-exporter-logging-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.6.0-alpha\opentelemetry-sdk-metrics-1.6.0-alpha.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.6.0\opentelemetry-sdk-common-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.6.0\opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.6.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.6.0\opentelemetry-sdk-trace-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.6.0-alpha\opentelemetry-api-metrics-1.6.0-alpha.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.6.0\opentelemetry-sdk-1.6.0.jar;C:\Users\BogusławZioło\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.6.0-alpha\opentelemetry-semconv-1.6.0-alpha.jar;C:\Users\BogusławZioło\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\BogusławZioło\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\BogusławZioło\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\BogusławZioło\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\BogusławZioło\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\BogusławZioło\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\BogusławZioło\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\BogusławZioło\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\BogusławZioło\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\BogusławZioło\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0\selenium-http-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0\selenium-safari-driver-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0\selenium-support-4.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\BogusławZioło\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-testng\7.0.0\cucumber-testng-7.0.0.jar;C:\Users\BogusławZioło\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\BogusławZioło\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\BogusławZioło\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\BogusławZioło\.m2\repository\io\cucumber\cucumber-picocontainer\7.1.0\cucumber-picocontainer-7.1.0.jar;C:\Users\BogusławZioło\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\BogusławZioło"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\SeleniumRepoGB\untitled"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\BogusławZioło\AppData\Local\Temp\surefire1287512853297946\surefirebooter4308922121397799227.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="BogusławZioło"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="browserType" value="firefox"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\BogusławZioło\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BOGUSA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="cucumber.filter.tags" value="(@login and (not @ignore))"/>
+    <property name="user.dir" value="C:\SeleniumRepoGB\untitled"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\SeleniumRepoGB\untitled/src/main/java/driver/drivers/geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\BogusławZioło\Documents\apache-maven-3.8.6/bin;C:\Program Files\Java\jdk-11.0.16/bin;C:\Program Files\Java\jdk-11.0.16/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Google\Chrome\Application;C:\Users\BogusławZioło\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;;C:\Users\BogusławZioło\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Google\Chrome\Application;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validate Successful &amp; UnSuccessful Login&quot;, &quot;Optional[WebDriver University - Login Page]&quot;](1)" classname="runners.MainRunner" time="28.986">
+    <system-out><![CDATA[
+@login @regression @smoke
+Scenario Outline: Validate Successful & UnSuccessful Login                                 # features/Login.feature:29
+
+@login @regression @login1
+Scenario: Validate Successful Login                             # features/Login.feature:7
+
+@login @regression
+Scenario: Validate UnSuccessful Login                             # features/Login.feature:13
+
+@login @regression @smoke
+Scenario Outline: Validate Successful & UnSuccessful Login                                    # features/Login.feature:27
+
+@login @regression @smoke
+Scenario Outline: Validate Successful & UnSuccessful Login                                 # features/Login.feature:28
+  Given I access the webdriver university login page                                          # stepDefinitions.Login_Steps.i_access_the_webdriver_university_login_page()
+  Given I access the webdriver university login page            # stepDefinitions.Login_Steps.i_access_the_webdriver_university_login_page()
+  Given I access the webdriver university login page              # stepDefinitions.Login_Steps.i_access_the_webdriver_university_login_page()
+  Given I access the webdriver university login page                                       # stepDefinitions.Login_Steps.i_access_the_webdriver_university_login_page()
+  Given I access the webdriver university login page                                       # stepDefinitions.Login_Steps.i_access_the_webdriver_university_login_page()
+  When I enter a username webdriver                             # stepDefinitions.Login_Steps.i_enter_a_username(java.lang.String)
+  When I enter a username webdriver                                                           # stepDefinitions.Login_Steps.i_enter_a_username(java.lang.String)
+  And I enter a password webdriver123                                                         # stepDefinitions.Login_Steps.i_enter_a_password_webdriver123(java.lang.String)
+  And I enter a password webdriver123                           # stepDefinitions.Login_Steps.i_enter_a_password_webdriver123(java.lang.String)
+  When I enter a username 'webdriver'                             # stepDefinitions.Login_Steps.i_enter_a_username(java.lang.String)
+  When I enter a username webdriver                                                        # stepDefinitions.Login_Steps.i_enter_a_username(java.lang.String)
+  When I enter a username x                                                                # stepDefinitions.Login_Steps.i_enter_a_username(java.lang.String)
+  And I enter a password webdriver1234                            # stepDefinitions.Login_Steps.i_enter_a_password_webdriver123(java.lang.String)
+  And I enter a password webdriver1                                                        # stepDefinitions.Login_Steps.i_enter_a_password_webdriver123(java.lang.String)
+  And I enter a password y                                                                 # stepDefinitions.Login_Steps.i_enter_a_password_webdriver123(java.lang.String)
+  And I click on the login button                               # stepDefinitions.Login_Steps.i_click_on_the_login_button()
+  And I click on the login button                                                             # stepDefinitions.Login_Steps.i_click_on_the_login_button()
+  Then I should be presented with the successful longin message # stepDefinitions.Login_Steps.i_should_be_presented_with_the_successful_longin_message()
+  Then I should be presented with the following login validation message validation succeeded # stepDefinitions.Login_Steps.i_should_be_presented_with_the_following_login_validation_message(java.lang.String)
+  And I click on the login button                                 # stepDefinitions.Login_Steps.i_click_on_the_login_button()
+  And I click on the login button                                                          # stepDefinitions.Login_Steps.i_click_on_the_login_button()
+  Then I should be presented with the unsuccessful longin message # stepDefinitions.Login_Steps.i_should_be_presented_with_the_unsuccessful_longin_message()
+  And I click on the login button                                                          # stepDefinitions.Login_Steps.i_click_on_the_login_button()
+  Then I should be presented with the following login validation message validation failed # stepDefinitions.Login_Steps.i_should_be_presented_with_the_following_login_validation_message(java.lang.String)
+  Then I should be presented with the following login validation message validation failed # stepDefinitions.Login_Steps.i_should_be_presented_with_the_following_login_validation_message(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+111616166667669776789997688867777869669888489957485	86g	e9g8c4k4e95o5c49d8k5		ro8ggidee	cvcrgkkieeoovdcredrrrik	vi	IeovINreNdF	rFOrI	O	NiLI	FNiLvFOsieO	tsr	Leti	LnesiInitsiNetnnFneggiOn n 	igoonL ngno   in11o 2sn127 t.7210e.7n..i000n...21g007:. .5.1o10:3n160 .:3909
+155.551
+2:47597.5070
+2.
+0.1:50630
+1111166666676697789977887796668889897799979997		9mm	oozmzrro6uznruunnn68n9en7r6e:9re7:99r	r8:mu7::6on8rzn:9uer7rnru9nu	e9nrIn		nNnmIeFeoNrFzr:Or		:uInRrNnueOFur	n:OnR:nn	ureRnuiunnrninn	gennI rgiNc	 nIFocOoN	mFgROm	 mRmacauunnndonnd:inm: nmi g""na CCcng:o:\m d\m:c\a\nP oPdm"rr:omC og"a:grCrn\a:ad\m\ mP:\F P rirFo"loeigCgslr\:rea\a\Mso\\mz\ PiMFlroloai zgFliiremarlm selFf\ao i\x MlF\oFieizr\ileseflf\so\\lix\M\arMo\ eozfFzfiiiliorllxrelafa.e o efFxxoi.erxeFex\"ifero \"xef"\ f\i-o"fx-r-i\-er\mmffeaaoifrxrroiei.xon.eoeenxxteeet"t"e t """e -"-"-- --rmm"eaam-rro-iitoroenen-emdetoeftttboeuetx"ge-. gd"e"i exn-"beg--u"-r-g peg"m-rio-etnmmgeoa--trpdeioeo-brndtueegtb"tgu egi""gn 6gi"-3-n9p-go9r-orp6et"o "" mr-r"o-t5ttr""6e e 3-"m"2d5oe62t3b24ue"67-g 8a"0gl"0il "- -"or"ne-w-gm---orhpetoomer-so-tttrase"el"m- l oa"o"tl5wll1e-oo4-hca4law4lo-l"osh wto"-shs-"ht "-o" r"o-nso-trse"mo t"el"o c"a-lhost" "-no-remoprseofilet" e"m"oCt :e"\--a\plUrsloetofrlocalhwso-s"ht o"s sit"s\l-"\en B"o"O- lGr"UoCeSm:Ac"o\~atl\1leoU\hc"so a\es"Art-ps"plp\r Dh\o"aBfo-tOsniaGtol\U"-e\S rL"A"eo ~-mc1"onat\oC\-el:Ar"ep\ \mp\\"oDUT-taspeetemra"rpo\ \sf\"\\Li-r\oplcuBreaOs"loGt f\_"i\mCTloe:e"z\m p"\p\CU\r:rs\u\oesUrtfss_\emoi\rzlBspOe\rG\oUBfSOhiAGlrU~e2S10A6\w~U\19Al\Up\MpgA"Dp
+a"pt
+Daa\t\aL\oc\aLlo\c\aTle\\mTpe\m\pr\us\tr_usmtoz_UpmSroAzo~fp1r\io\lfAeipMlp6eDHua8wtNaUV\h2\"EL
+"o
+cal\\Temp\\rust_mozprofileiPwwgz"
+16166769787961897606619750291	5M8a7r26i	9oMn0ae1rt5it2oe	n	MeIatrtNieFo	OnI	eNMtFatOre	i	MoIanNreitotnee teFtnea belOnea	dMbal
+reidon
+ette enabled
+111666666777998987876769699000111555666		M	aMMraaririoinoetntoeent	etIteNt	FeIO	N	IFLNOiF	OsL	tiLesintsietnngei onnngi n pgoo nro tnp  o6pr3ot1 r36t03 16
+33112
+9
+1667987690212	Marionette	INFO	Marionette enab1led6
+67987690212	Marionette	INFO	Marionette enabled
+1166667799887766990201216	M6a	rMiaorniettoen	IeNtFtOe		INFLOi	stLeinsitnegn oinn gp oornt  p6o3r1t3 363
+132
+RRReeeRaaadded  ap dpop orotrrp:tot::r t  :663 631361R233e13a
+31d319 
+0p
+
+ort: 63132
+WebDriver BiDi listening on ws://127.0.0.1:56323
+WWeebbDDrriivveerr  BBiiDDii  lliisstteenniinng on ws:g/ /o1n2 w7s.:0./0/.112:75.2026.80.
+1:64700
+1667987690360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:63996
+WebDriver BiDi listening on ws://127.0.0.1:51444
+1667987690392	RemoteAgent	WARN	TLS certificate errors wil1l 6b6e7 9i8g7n6o9r0e3d9 2f	oRre mtohtiesA gseensts	ioWnAR
+N	TLS certificate errors will be ignored for this session
+1667987690425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667987690445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BOGUSA~1\\AppData\\Local\\Temp\\rust_mozprofileM6H8Uh\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BOGUSA~1\\AppData\\Local\\Temp\\rust_mozprofileuwNV2E\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BOGUSA~1\\AppData\\Local\\Temp\\rust_mozprofilehr2wlg\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BOGUSA~1\\AppData\\Local\\Temp\\rust_mozprofile06U9UM\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BOGUSA~1\\AppData\\Local\\Temp\\rust_mozprofileiPwwgz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51444/devtools/browser/f3a188c8-a9ea-423b-bd1f-16aa8325ccad
+DevTools listening on ws://127.0.0.1:56323/devtools/browser/82654e65-472c-491c-b602-55cf0ab39a9b
+DevTools listening on ws://127.0.0.1:D5e2v2To6o8ls/ dleisvttoenoing onls/b rowwss:e/r//51f2a7a.300d.50-.41b:3663-949964/6d-eavet2o7-o0lds1/3br6o2w6s5e8rd/3393
+fec68a-e4e6-4def-bd5e-248583e3e3f9
+lis 09, 2022 10:55:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+lis 09, 2022 10:55:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+lis 09, 2022 10:55:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+lis 09, 2022 10:55:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+DevTools listening on ws://127.0.0.1:64700/devtools/browser/f5ecfa5c-cc8f-4e1f-b1b8-4255897db873
+lis 09, 2022 10:55:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JJJaaJavvavJaavSSaccSrrcaiiSrpipcattrp iv teep rarterr rooerrSr:ro:c rrorr :re r:sire oeurspseosortuourucr reccceee:e::/r://////g/rggrerro/eerm/o:/md omurdogleurdelsuseol/se/UuUrResIcR//FmeIoiU:FdxR/uiuI/xplgFeu.sp/jr.iUsejxmR/su,mImp o,lFd. iilunjxilesun pemes3 ,./073j:U  0sRlNm7iIS,:n_F  EleiNR SixR_3nuO0EpeR7R_ .:RF3 jOA0NIs7RLS:m_U_ ,FERN ARESRIl:L_ iOUSnERReRh_E RoF:3uA O0lIRS7Ld_h U:F oARpNuIlEaSLd:s_U  sERSp REaahR:so  Osun SRolh_ndoa-F u nnupAload nsIl-pLlnsaU s uuRsla rl Eain  :onu
+ onrSni--hn
+nuouulllldl   upuarrsiis
+ 
+a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.webdriveruniversity.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.webdriveruniversity.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.webdriveruniversity.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.webdriveruniversity.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.webdriveruniversity.com."
+11667696789877771177103	Ma1ri0on3e	tMtaer	IiNoFnOe	tStteo	pIpNeFdO 	lSitosptpeendin lgis otne npionrgt  on6 3por1t2 963
+130
+1667987717226	Marionette	INFO	Stopped listening on port 63133
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1188: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1667987717267	Marionette	INFO	Stopped listening on port 63131
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1188: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1667987717293	Marionette	INFO	Stopped listening on port 63132
+JavaScript error: resource://gre/modules/LoginHelper.jsm, line 1781: TypeError: browser is null
+[Parent 7500, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/LoginHelper.jsm, line 1781: TypeError: browser is null
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1188: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: resource://gre/modules/LoginHelper.jsm, line 1781: TypeError: browser is null
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1188: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1188: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+[Parent 9496, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/LoginHelper.jsm, line 1781: TypeError: browser is null
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate Successful Login&quot;, &quot;Optional[WebDriver University - Login Page]&quot;](2)" classname="runners.MainRunner" time="29.013"/>
+  <testcase name="runScenario[&quot;Validate Successful &amp; UnSuccessful Login&quot;, &quot;Optional[WebDriver University - Login Page]&quot;](3)" classname="runners.MainRunner" time="29.085"/>
+  <testcase name="runScenario[&quot;Validate UnSuccessful Login&quot;, &quot;Optional[WebDriver University - Login Page]&quot;](4)" classname="runners.MainRunner" time="29.119"/>
+  <testcase name="runScenario[&quot;Validate Successful &amp; UnSuccessful Login&quot;, &quot;Optional[WebDriver University - Login Page]&quot;](5)" classname="runners.MainRunner" time="29.148"/>
+</testsuite>
